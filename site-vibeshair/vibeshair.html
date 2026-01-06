@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>VIBE'S HAIR</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black; /* fond noir */
+            color: white; /* le texte par défaut */
+        }
+
+        header {
+            background-image: url(images/salonvibeshair.jpg) ; /* image de fond */
+            background-size: cover;
+            background-position: center ;
+            background-repeat: no-repeat;
+            padding: 60px  20px; /* hauteur du header */
+            text-align: center;
+            position: relative;
+            color: white;   /* couleur du texte, du header */
+        }
+        header h1{
+            margin: 0;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(red, green, blue, alpha); /* rends le texte lisible */ 
+        }
+        header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .presentation {
+            padding: 60px 10%;
+            text-align: center;
+            background-color: black;
+        }
+        .presentation{
+            max-width: 700px;
+            margin: 0 auto 40px;
+            color: white;
+        }
+        .images{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap; /* pour que ce soit responsive */
+        }
+        .images img {
+            width: 45%;
+            max-width: 800px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        section {
+            padding: 40px 10%;
+            background-color: white;
+            color: black;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 1200px;
+        }
+        footer {
+             background-color: #f5f5f0;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>VIBE'S HAIR</h1>
+    <nav>
+        <a href="prestations.html">Prestations</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="reservation.html">Espace clients</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Bienvenue chez VIBE'S HAIR</h2>
+    <p>Salon de coiffure moderne – style, précision et vibes.
+    </p>
+</section>
+<section>
+    <h2>Notre univers</h2>
+    <p>
+        Chez VIBE'S HAIR, chaque coupe est pensée pour révéler ta personnalité.
+        Notre salon allie créativité, précision et tendances actuelles.
+    </p>
+
+    <div class="images">
+        <img src="images/salonvibeshair.jpg" alt="Salon Vibe's Hair">
+        <img src="images/vibes hairimage1.jpg" alt="Coiffure Vibe's Hair">
+    </div>
+</section>
+
+
+<section id="tarifs">
+    <h2>Tarifs</h2>
+    <ul>
+        <li>Coupe femme simple: 30€</li>
+        <li>Coupe femme hairstyle: 45€</li> 
+        <li>Coupe homme simple: 18€</li>
+        <li>Coupe homme hairstyle: 30€</li>
+        <li>Coloration : à partir de 40€</li>
+    </ul>
+</section>
+<footer>
+    <p>📍 12 rue de la Beauté, 75000 Paris</p>
+    <p>📞 01 23 45 67 89</p>
+    <p>✉️ contact@vibeshair.com</p>
+    <p>© 2026 VIBE'S HAIR</p>
+</footer>
+
+
+</body>
+</html>
